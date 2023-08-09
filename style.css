@@ -1,0 +1,132 @@
+#body {
+  background-color: black;
+  margin: 0;
+}
+#insidebody {
+  padding: 20px;
+  background-color: white;
+}
+#titeltext {
+  display: flex;
+  justify-content: left;
+  margin-top: 1px;
+}
+#menutext {
+  display: flex;
+  justify-content: flex-end;
+}
+#star {
+  margin-right: 30px;
+}
+#about {
+  margin-right: 30px;
+}
+#connect {
+  margin-right: 30px;
+}
+h1 {
+  font-size: 30px;
+}
+p {
+  font-size: 13px;
+}
+#text {
+  display: flex;
+  justify-content: left;
+  width: 550px;
+}
+#paragraphs {
+  display: flex;
+  align-items: flex-end;
+  width: 350px;
+  color: rgba(95, 91, 91, 0.862);
+}
+#toptext {
+  display: flex;
+  justify-content: space-between;
+}
+#picture {
+  border-radius: 10px;
+}
+#secondmenu {
+  display: flex;
+  justify-content: space-around;
+  color: rgba(95, 91, 91, 0.862);
+}
+#boldtext {
+  font-size: 20px;
+  color: black;
+}
+
+#linebox {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+#boxreview {
+  display: flex;
+  justify-content: space-between;
+}
+#ring {
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+#letconect {
+  display: flex;
+  align-items: flex-end;
+  color: darkgray;
+}
+#photos {
+  display: flex;
+  /* flex-flow: column wrap; */
+  /* width: 100vw; */
+  height: 250px;
+  padding: 48px;
+  column-gap: 48px;
+  row-gap: 32px;
+  border-radius: 10px;
+}
+#wholelowtext {
+  display: flex;
+  justify-content: center;
+}
+#lowtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(211, 211, 211, 0.931);
+  color: rgb(63, 60, 60);
+  width: 170px;
+  height: 30px;
+  border-radius: 8px;
+}
+#bottomlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#type {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+button {
+  border-radius: 10px;
+  border: 0px solid;
+}
+#lowtitle {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+  padding: 80px;
+  margin-top: 10px;
+}
+#withicon {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: stretch;
+
+}
